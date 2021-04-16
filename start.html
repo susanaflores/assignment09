@@ -83,11 +83,22 @@
 	<h2 class="well">Carmels Ipsum</h2>
 	<p>Caramels cotton candy gummi bears jujubes topping. Sugar plum pudding danish jujubes cotton candy muffin brownie fruitcake. Gingerbread lemon drops tiramisu oat cake danish.</p>
 	
-	<form method="post" action="">
+	<form method="post" action="" class="form-floating">
 		<fieldset>
-			<label for="name">Enter your Name:</label> <input type="text" name="name" id="name"> 
-			<label for="email">Email:</label> <input type="text" name="email" id="email"> 
-			<label for="age">Favorite Cupcake Flavor:</label> <input type="text" name="age" id="age">
+			<div class="mb-3">
+				<label for="name" class="form-label">Enter your Name:</label>
+				<input type="text" class="form-control" name="name" id="name"> 
+			</div>
+
+			<div class="mb-3">
+				<label for="email" class="form-label">Email:</label> 
+				<input type="email" class="form-control" name="email" id="email"> 
+			</div>
+
+			<div class="mb-3">
+				<label for="cupcake" class="form-label">Favorite Cupcake Flavor:</label>
+				<input type="text" class="form-control" name="cupcake" id="cupcake">
+			</div>
 		</fieldset>	
 	</form>
 
